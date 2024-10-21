@@ -3,112 +3,110 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Food Dine - Restaurent</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/responsive.css" />
+    <title>Food Dine - Order Your Food And Smile</title>
+    <!--========Favicon=======-->
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+    <!--========CSS Links=======-->
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <!--========Google Font=======-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>
-      <nav class="navbar navbar-expand-lg bg-white">
-        <div class="container">
-          <a class="navbar-brand h3" href="#"
-            >Food <span class="text-warning">Dine</span></a
-          >
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Menu</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Special Offer</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">New Items</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Review</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-            </ul>
-            <div class="d-flex">
-              <button class="btn btn-outline-primary me-2">Sing Up</button>
-              <button class="btn btn-outline-success">Log In</button>
+    <!-- ============ HEADER ============= -->
+    <header class="header">
+      <a href="#" class="logo"> Food <span>Dine</span> </a>
+      <!-- ============ NAV ============= -->
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a href="#how" class="main-nav-link">How it works</a></li>
+          <li><a href="#meals" class="main-nav-link">Meals</a></li>
+          <li>
+            <a href="#testimonials" class="main-nav-link">Testimonials</a>
+          </li>
+          <li><a href="#pricing" class="main-nav-link">Pricing</a></li>
+          <li><a href="#cta" class="main-nav-link nav-cta">Try for free</a></li>
+        </ul>
+      </nav>
+      <!-- ============ MOBILE NAV ============= -->
+      <button class="mobile-nav-btn">
+        <ion-icon class="icon-mobile-nav" name="menu"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close"></ion-icon>
+      </button>
+    </header>
+    <!-- ============ MAIN ============= -->
+    <main>
+      <!-- ============ HERO ============= -->
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">
+              A healthy meal delivered to your door, every single day
+            </h1>
+            <p class="hero-description">
+              The smart 365-days-per-year food subscription that will make you
+              eat healthy again. Tailored to your personal tastes and
+              nutritional needs. We have delivered 350,000+ meals last year!
+            </p>
+            <a href="#cta" class="btn btn-full">Start Eating Today</a>
+            <a href="#how" class="btn btn-outline">Learn More &darr;</a>
+            <div class="delivered-meals">
+              <div class="delivered-imgs">
+                <img
+                  src="./images/customers/customer-1.jpg"
+                  alt="customer photo"
+                />
+                <img
+                  src="./images/customers/customer-2.jpg"
+                  alt="customer photo"
+                />
+                <img
+                  src="./images/customers/customer-3.jpg"
+                  alt="customer photo"
+                />
+                <img
+                  src="./images/customers/customer-4.jpg"
+                  alt="customer photo"
+                />
+                <img
+                  src="./images/customers/customer-5.jpg"
+                  alt="customer photo"
+                />
+                <img
+                  src="./images/customers/customer-6.jpg"
+                  alt="customer photo"
+                />
+              </div>
+              <p class="delivered-text">
+                <span>350,000+</span> meals delivered last year!
+              </p>
             </div>
           </div>
-        </div>
-      </nav>
-    </header>
-    <main>
-      <!-- Hero Section Start -->
-      <div
-        id="carouselExampleInterval"
-        class="carousel slide"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="3000">
-            <img src="./images/03.png" class="d-block w-100" alt="..." />
-          </div>
-          <div class="carousel-item" data-bs-interval="3000">
-            <img src="./images/01.jpg" class="d-block w-100" alt="..." />
-          </div>
-          <div class="carousel-item" data-bs-interval="3000">
-            <img src="./images/02.jpg" class="d-block w-100" alt="..." />
-          </div>
-          <div class="carousel-item" data-bs-interval="3000">
-            <img src="./images/04.jpg" class="d-block w-100" alt="..." />
-          </div>
-          <div class="carousel-item" data-bs-interval="3000">
-            <img src="./images/05.png" class="d-block w-100" alt="..." />
-          </div>
-          <div class="carousel-item" data-bs-interval="3000">
-            <img src="./images/06.png" class="d-block w-100" alt="..." />
+          <div class="hero-img-box">
+            <img class="hero-img" src="./images/hero.png" alt="" />
           </div>
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleInterval"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleInterval"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-      <!-- Hero Section End -->
-      <!-- Menu Section Start -->
-
-      <!-- Menu Section End -->
+      </section>
     </main>
+    <!-- ============ FOOTER ============= -->
     <footer></footer>
 
-    <script src="./js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
+    <!--============Ion-Icon Script==============-->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <!--============Custom Script==============-->
+    <script src="./js/main.js"></script>
   </body>
 </html>
