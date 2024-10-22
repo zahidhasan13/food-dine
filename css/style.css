@@ -106,3 +106,28 @@
 .hero-img {
   width: 100%;
 }
+/* ************************************ */
+/* Featured in Section */
+/* ************************************ */
+.section-featured {
+  padding: 4.8rem 0 3.2rem;
+}
+.heading-featured-in {
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.75;
+  text-align: center;
+  margin-bottom: 2.4rem;
+  color: #767676;
+}
+.featured-logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.featured-logos img {
+  height: 3.2rem;
+  filter: brightness(0);
+  opacity: 0.5;
+}
