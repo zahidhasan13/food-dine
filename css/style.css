@@ -448,5 +448,40 @@
   outline: 3px solid rgba(0, 0, 0, 0.2);
 }
 /* ************************************ */
-/* How in Section */
+/* Footer Section */
 /* ************************************ */
+.footer {
+  background-color: #fdf2e9;
+  padding: 9.6rem 4.8rem;
+}
+.footer-container {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr 1fr 1fr;
+  gap: 2rem;
+}
+.social-link {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-size: 2.4rem;
+  margin: 3.2rem 0;
+}
+.social-icon {
+  transition: all 0.4s;
+}
+.social-icon:hover {
+  color: #e67e22;
+}
+.copyright {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+.footer-address {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  font-size: 1.8rem;
+}
+.footer-link a {
+  color: #333;
+}
